@@ -1,0 +1,33 @@
+Get all employees list
+
+URL: http://localhost:3031/api/employees
+REQUEST:GET
+Method:router.get()
+Fields:none
+
+Get single employee
+
+Url:http://localhost:3031/api/employees/:id
+REQUEST:GET
+Method:router.get()
+Fields:none
+
+post -create a employee
+
+URL:http://localhost:3031/api/createemployeedetails
+REQUEST:GET
+Method:router.get()
+Fields:isbn,firstname,lastname,email,mobile number,description,password,
+
+update employee list
+
+URL:http://localhost:3031/api/employees/:id
+Method:router.get()
+Fields:isbn,firstname,lastname,email,mobile number,description,password
+
+delete a employee
+
+URL:http://localhost:3031/api/employees/:id
+REQUEST:DELETE 
+Method:router.delete(),
+Fields:none
